@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfólio - Vitória Fernandes</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header id="header">
+      <div class="container nav-wrapper">
+        <h1 class="logo">VIT<span class="realce">DEV</span></h1>
+
+        <button
+          class="menu-btn"
+          id="menu-btn"
+          aria-expanded="false"
+          aria-controls="navbar"
+          aria-label="Open menu"
+        >
+          <span class="hamburger"></span>
+        </button>
+
+        <nav class="navbar" id="navbar" role="navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#github">GitHub</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-img">
+          <img
+            src="assets/imgs/foto-perfil.png"
+            alt="Foto de Vitória Fernandes"
+            class="profile-img"
+          />
+        </div>
+        <div class="hero-text">
+          <h2><span id="typed"></span><span class="cursor" aria-hidden="true">|</span></h2>
+          <p>
+            I am Vitória Fernandes, a front-end developer with back-end experience in Java.
+          </p>
+          <a href="#github" class="btn btn-primary">View my projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-text">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">
+          I am 19 years old and a front-end developer with experience in creating web interfaces. I work
+          with HTML, CSS, JavaScript, React and Figma, building solutions that balance
+          functionality, usability, and visual identity.
+        </p>
+        <p class="section-text">
+          I am expanding my knowledge in back-end development with a focus on Java.
+        </p>
+        <p class="section-text">
+          Currently, I am a 3rd-semester student in Systems Analysis and Development at FMU.
+          I seek to complement the knowledge I gained at Etec Albert Einstein, where I started the
+          Internet Informatics course, and completed it at Etec Antônio Furlan.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+          <div class="skill-card"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+          <div class="skill-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+          <div class="skill-card"><i class="devicon-react-original colored"></i><span>React</span></div>
+          <div class="skill-card"><i class="devicon-ionic-original colored"></i><span>Ionic</span></div>
+          <div class="skill-card"><i class="devicon-figma-plain colored"></i><span>Figma</span></div>
+          <div class="skill-card"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+          <div class="skill-card"><i class="devicon-github-original"></i><span>GitHub</span></div>
+          <div class="skill-card"><i class="devicon-java-plain"></i><span>Java</span></div>
+          <div class="skill-card"><i class="devicon-mysql-plain-wordmark"></i><span>MySQL</span></div>
+          <div class="skill-card"><i class="devicon-python-plain"></i><span>Python</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GITHUB -->
+    <section id="github" class="section">
+      <div class="container">
+        <h2 class="section-title">My code on GitHub</h2>
+        <p class="section-subtitle">
+          I'm starting my journey as a developer and already practicing a lot! On my GitHub,
+          you'll find exercises, mini projects, and experiments as I learn and grow.
+        </p>
+        <a href="https://github.com/vittfs/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <i class="devicon-github-original"></i> View my GitHub
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contato-card">
+        <h2 class="section-title">Contact</h2>
+        <p>Reach out to me on LinkedIn or send me an email 😊</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/vitóriafernandess" class="btn-social" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+          </a>
+          <a href="mailto:vf52991@hotmail.com" class="btn-social">
+            <i class="fas fa-envelope" aria-hidden="true"></i> E-mail
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        Template created by
+        <a href="https://www.instagram.com/vit.fernandes_" target="_blank" rel="noopener noreferrer">@vit.fernandes</a>
+      </p>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
