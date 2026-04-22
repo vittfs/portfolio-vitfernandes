@@ -1,6 +1,4 @@
-// ==========================
-// TYPING ANIMATION (Hero)
-// ==========================
+// TYPING ANIMATION (Hero) 
 const text = "Hello, World!";
 const typedEl = document.getElementById("typed");
 
@@ -16,9 +14,7 @@ function typeEffect() {
 window.addEventListener("DOMContentLoaded", typeEffect);
 
 
-// ==========================
 // SCROLL ANIMATIONS (fade + slide)
-// ==========================
 const animatedEls = document.querySelectorAll(
   ".section, .skill-card, .projeto-card, .contato-card"
 );
@@ -40,10 +36,7 @@ animatedEls.forEach((el) => {
   observer.observe(el);
 });
 
-
-// ==========================
 // SMOOTH SCROLL (menu links)
-// ==========================
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
@@ -63,10 +56,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-
-// ==========================
 // MOBILE MENU TOGGLE
-// ==========================
 const menuBtn = document.getElementById("menu-btn");
 const navbar = document.getElementById("navbar");
 
@@ -79,9 +69,7 @@ if (menuBtn && navbar) {
 }
 
 
-// ==========================
 // 3D TILT EFFECT (skill cards)
-// ==========================
 const cards = document.querySelectorAll(".skill-card");
 
 cards.forEach((card) => {
@@ -100,9 +88,7 @@ cards.forEach((card) => {
 });
 
 
-// ==========================
 // BACK TO TOP BUTTON
-// ==========================
 const btnTop = document.getElementById("back-to-top");
 
 window.addEventListener("scroll", () => {
@@ -117,10 +103,7 @@ if (btnTop) {
   });
 }
 
-
-// ==========================
 // HEADER SCROLL EFFECT
-// ==========================
 const header = document.getElementById("header");
 
 window.addEventListener("scroll", () => {
